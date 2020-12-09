@@ -4,18 +4,6 @@ For this project, we will reuse much of the functions and logic of our previous 
 
 Like last time, first of all, we create a cell for all the libraries we will need to import for our project. We will use pandas to import and manipulate data easily through DataFrames, NumPy for linear algebra & complex operations over lists, Matplotlib for displaying 2D plots, Seaborn for displaying correlation heatmaps, scikit-learn for model engineering & some extra utilities.
 
-<style>
-.output_wrapper, .output {
-    height:auto !important;
-    max-height:1000px;  /* your desired max-height here */
-}
-.output_scroll {
-    box-shadow:none !important;
-    webkit-box-shadow:none !important;
-}
-</style>
-
-
 ```python
 import time
 from math import sqrt
